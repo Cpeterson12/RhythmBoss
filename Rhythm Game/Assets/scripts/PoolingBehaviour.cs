@@ -13,50 +13,43 @@ public class PoolingBehaviour : MonoBehaviour
     private int i;
     private int num;
     private int randObj;
-    public Vector3DataList obj;
+    public Vector3Data obj;
 
     
 
-    IEnumerator BeginPool()
+    public void BeginPool()
     {
         
-        while (true)
-        {
-            wfsObj = new WaitForSeconds(seconds.value);
-            num = Random.Range(0, obj.vector3DList.Count - 1);
-            randObj = Random.Range(0, poolList.Count - 1);
-            poolList[randObj].position = obj.vector3DList[num].value;
-            poolList[randObj].gameObject.SetActive(true);
-            yield return wfsObj;
+       // num = Random.Range(0, obj.vector3DList.Count - 1);
+        randObj = Random.Range(0, poolList.Count - 1);
+        poolList[randObj].position = obj.value;
+        poolList[randObj].gameObject.SetActive(true);
 
-        }
+     
     }
    
-    IEnumerator BeginPoolii()
-    {
+   // IEnumerator BeginPoolii()
+   // {
         
-        while (true)
-        {
-            wfsObj = new WaitForSeconds(seconds.value);
-            num = Random.Range(0, obj.vector3DList.Count - 1);
-            poolList[randObj].position = obj.vector3DList[num].value;
-            i++;
-            if (i > poolList.Count - 1)
-            {
-                i = 0;
-            }
-            yield return wfsObj;
+       // while (true)
+      //  {
+           // wfsObj = new WaitForSeconds(seconds.value);
+           // num = Random.Range(0, obj.vector3DList.Count - 1);
+           // poolList[randObj].position = obj.vector3DList[num].value;
+           // i++;
+           // if (i > poolList.Count - 1)
+           // {
+           //     i = 0;
+           // }
+           // yield return wfsObj;
 
-        }
-    }
+    //   }
+   // }
     
-    public void ActivatePool()
-    {
-        StartCoroutine(BeginPool());
-    }
+  
 
-    public void ActivatePoolii()
-    {
-        StartCoroutine(BeginPoolii());
-    }
+  //  public void ActivatePoolii()
+   // {
+    //    StartCoroutine(BeginPoolii());
+   // }
 }
