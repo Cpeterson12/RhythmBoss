@@ -7,6 +7,8 @@ using UnityEngine.Events;
 public class LifeBehaviour : MonoBehaviour
 {
     public UnityEvent OnGround;
+    public UnityEvent OutOfLife;
+    public FloatData lifeCount;
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Ground"))
@@ -15,5 +17,11 @@ public class LifeBehaviour : MonoBehaviour
         }
     }
 
-    
+    public void Update()
+    {
+        if (lifeCount.value == 0)
+        {
+            OutOfLife.Invoke();
+        }
+    }
 }
