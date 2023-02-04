@@ -3,10 +3,36 @@ using UnityEngine.Events;
 [CreateAssetMenu]
 public class GameActionBehaviour : ScriptableObject
 {
-    public UnityAction raise;
+    public UnityAction<object> raise;
+    public UnityAction raiseNoArgs;
+
+    public void RaiseAction(object obj)
+    {
+        raise?.Invoke(obj);
+    }
 
     public void RaiseAction()
     {
-        raise?.Invoke();
+        raiseNoArgs?.Invoke();
+    }
+    
+    public void RaiseAction(float obj)
+    {
+        raise?.Invoke(obj);
+    }
+    
+    public void RaiseAction(int obj)
+    {
+        raise?.Invoke(obj);
+    }
+
+    public void RaiseAction(Transform obj)
+    {
+        raise?.Invoke(obj);
+    }
+    
+    public void RaiseAction(GameObject obj)
+    {
+        raise?.Invoke(obj);
     }
 }

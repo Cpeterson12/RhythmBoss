@@ -10,7 +10,7 @@ public class GameActionHandler : MonoBehaviour
         gameActionObj.raise += Raise;
     }
 
-    private void Raise()
+    private void Raise(object obj)
     {
         onRaiseEvent.Invoke();
     }

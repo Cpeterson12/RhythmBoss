@@ -1851,7 +1851,7 @@ MonoBehaviour:
       - m_Target: {fileID: 11400000, guid: e92648b5fa4d8814d88d3951cdabea99, type: 2}
         m_TargetAssemblyTypeName: GameActionBehaviour, Assembly-CSharp
         m_MethodName: RaiseAction
-        m_Mode: 1
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
