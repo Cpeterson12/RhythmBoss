@@ -8,6 +8,7 @@ using UnityEngine.Events;
       public ID idObj;
       public UnityEvent startEvent, matchEvent, noMatchEvent, noMatchDelayedEvent;
       public bool onTime;
+      public GameObject note;
 
       public void Start()
       {
@@ -39,5 +40,10 @@ using UnityEngine.Events;
       public void OnTriggerExit(Collider other)
       {
           onTime = false;
+      }
+      
+      public void MoveNote()
+      {
+          note.transform.position = new Vector3(13, 3, -7);
       }
  }

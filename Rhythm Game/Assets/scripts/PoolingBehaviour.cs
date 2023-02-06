@@ -15,7 +15,7 @@ public class PoolingBehaviour : MonoBehaviour
     private int randObj;
     public Vector3Data obj;
 
-    
+
 
     public void BeginPool()
     {
@@ -33,29 +33,6 @@ public class PoolingBehaviour : MonoBehaviour
 
 
     }
-   
-   // IEnumerator BeginPoolii()
-   // {
-        
-       // while (true)
-      //  {
-           // wfsObj = new WaitForSeconds(seconds.value);
-           // num = Random.Range(0, obj.vector3DList.Count - 1);
-           // poolList[randObj].position = obj.vector3DList[num].value;
-           // i++;
-           // if (i > poolList.Count - 1)
-           // {
-           //     i = 0;
-           // }
-           // yield return wfsObj;
 
-    //   }
-   // }
-    
   
-
-  //  public void ActivatePoolii()
-   // {
-    //    StartCoroutine(BeginPoolii());
-   // }
 }
