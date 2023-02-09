@@ -20,5 +20,10 @@ public class TextLabelBehaviour : MonoBehaviour
     {
         label.text = obj.value.ToString(CultureInfo.InvariantCulture);
     }
+
+    public void UpdateLabelTwo(StringListData obj)
+    {
+        label.text = obj.currentValue;
+    }
 }
 
