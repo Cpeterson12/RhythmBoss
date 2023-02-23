@@ -46,4 +46,17 @@ using UnityEngine.Events;
       {
           note.transform.position = new Vector3(13, 3, -7);
       }
+      
+      public void Movebossnotei()
+      {
+          note.transform.position = new Vector3(-1, 21, -7);
+      }
+      public void Movebossnoteii()
+      {
+          note.transform.position = new Vector3(-1, 47, -7);
+      }
+      public void Movebossnoteiii()
+      {
+          note.transform.position = new Vector3(-1, 72, -7);
+      }
  }

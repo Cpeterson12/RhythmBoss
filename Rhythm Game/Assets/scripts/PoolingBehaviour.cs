@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 public class PoolingBehaviour : MonoBehaviour
 {
-    public List<Transform> poolList;
+    public List<GameObject> poolList;
     
     private WaitForSeconds wfsObj;
     public FloatData seconds;
@@ -17,19 +17,24 @@ public class PoolingBehaviour : MonoBehaviour
 
 
 
-    public void BeginPool()
+    public GameObject ReturnPool()
     {
         
-       // num = Random.Range(0, obj.vector3DList.Count - 1);
-        randObj = Random.Range(0, poolList.Count - 1);
-        poolList[randObj].position = obj.value;
-        //poolList[randObj].gameObject.SetActive(true);
+       
+       // randObj = Random.Range(0, poolList.Count - 1);
+        //poolList[randObj].position = obj.value;
+       
 
-        for (num = 0; num < poolList.Count; num++)
+        for (int i = 0; i < poolList.Count; i ++)
         {
-         poolList[num].gameObject.SetActive(true);
-         Debug.Log("please");
+            if (!poolList[i].activeInHierarchy)
+            {
+                return poolList[i];
+            }
+            poolList[num].gameObject.SetActive(true);
         }
+
+        return null;
 
 
     }
