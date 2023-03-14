@@ -10,6 +10,7 @@ public class AltPoolBehaviour : MonoBehaviour
     public int amountToPool;
     public Vector3 spawn;
     GameObject tmp;
+    public GameObject test;
     void Awake()
     {
         SharedInstance = this;
@@ -22,12 +23,12 @@ public class AltPoolBehaviour : MonoBehaviour
         for (int i = 0; i < amountToPool; i++)
         {
             tmp = Instantiate(objectToPool);
-            tmp.SetActive(false);
+            tmp.SetActive(true);
             pooledObjects.Add(tmp);
         }
     }
 
-    public GameObject GetPooledObject()
+    public GameObject GetPooledObject(GameObject prefab)
     {
         for (int i = 0; i < pooledObjects.Count; i++)
         {
@@ -54,15 +55,23 @@ public class AltPoolBehaviour : MonoBehaviour
 
     public void ActivateObj()
     {
-        if (pooledObjects.Count <= 0) return;
-        pooledObjects[0].transform.position = spawn;
-        pooledObjects[0].SetActive(true);
-        //pooledObjects.RemoveAt(0);
+        for (int i = 0; i < pooledObjects.Count; i++) 
+        {
+            pooledObjects[i].transform.position = spawn;
+            if (pooledObjects.Count <= i)
+            {
+                i = 0;
+            }
+        }
+        //if (pooledObjects.Count <= 0) return;
+       // pooledObjects[i].transform.position = spawn;
+       // pooledObjects[0].SetActive(true);
+       // pooledObjects.RemoveAt(0);
     }
 
     public void StartOther()
     {
-        GetPooledObject();
+        GetPooledObject(objectToPool);
     }
 
     

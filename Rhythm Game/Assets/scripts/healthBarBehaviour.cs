@@ -2,18 +2,21 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+
 public class healthBarBehaviour : MonoBehaviour
 {
     //http://gyanendushekhar.com/2019/11/17/create-health-bar-unity-3d/
-    private static Image HealthBarImage;
-    public static UnityEvent ZeroLife;
+    public static Image HealthBarImage;
+   [SerializeField]
+    public UnityEvent ZeroLife;
+    
  
     
-    public static void UpdateHealthBarValue(float value)
+    public void UpdateHealthBarValue(float value)
     {
         HealthBarImage.fillAmount += value;
 
-        if (HealthBarImage.fillAmount <= 0f)
+        if (HealthBarImage.fillAmount <= 0.009f)
         {
             ZeroLife.Invoke();
         }

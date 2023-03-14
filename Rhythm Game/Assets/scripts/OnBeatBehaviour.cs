@@ -6,7 +6,7 @@ using UnityEngine.Events;
  public class OnBeatBehaviour : MonoBehaviour
  {
       public ID idObj;
-      public UnityEvent startEvent, matchEvent, noMatchEvent, noMatchDelayedEvent;
+      public UnityEvent startEvent, matchEvent, noMatchEvent, matchDelayedEvent;
       public bool onTime;
       public GameObject note;
 
@@ -28,12 +28,14 @@ using UnityEngine.Events;
           if (otherID == idObj)
           {
               matchEvent.Invoke();
+              yield return new WaitForSeconds(0.1f);
+              matchDelayedEvent.Invoke();
           }
           else
           {
               noMatchEvent.Invoke();
               yield return new WaitForSeconds(0.5f);
-              noMatchDelayedEvent.Invoke();
+              
           }
       }
 
