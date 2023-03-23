@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f2839f4aeaf2740bc3a4c04e685700, type: 3}
   m_Name: music timer
   m_EditorClassIdentifier: 
-  value: 0.5
+  value: -0.3

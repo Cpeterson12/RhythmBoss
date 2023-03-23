@@ -10,10 +10,15 @@ public class DelayBehaviour : MonoBehaviour
   {
     StartCoroutine(WaitForFunction());
   }
-
+  
   public IEnumerator WaitForFunction()
   {
-    yield return new WaitForSeconds(numbers.value);
+    while (numbers.value > 0)
+    {
+      yield return new WaitForSeconds(1.0f);
+      numbers.value --;
+    }
+    Debug.Log("yeah me too");
     GoNow.Invoke();
   }
 }

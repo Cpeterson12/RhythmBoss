@@ -16,8 +16,9 @@ public class healthBarBehaviour : MonoBehaviour
     {
         HealthBarImage.fillAmount += value;
 
-        if (HealthBarImage.fillAmount <= 0.009f)
+        if (HealthBarImage.fillAmount < 0.1)
         {
+            Debug.Log("hello death");
             ZeroLife.Invoke();
         }
         else if(HealthBarImage.fillAmount < 0.2f)
