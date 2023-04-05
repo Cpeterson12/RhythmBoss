@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu]
-public class FloatData : ScriptableObject
+public class IntData : ScriptableObject
 {
-    public float value;
-
-    public void SetValue(float num)
+    public int value;
+    
+    public void SetValue(int num)
     {
         value = num;
     }
   
-    public void UpdateValue(float num)
+    public void UpdateValue(int num)
     {
         value += num;
     }

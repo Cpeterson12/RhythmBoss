@@ -18,7 +18,6 @@ public class DelayBehaviour : MonoBehaviour
       yield return new WaitForSeconds(1.0f);
       numbers.value --;
     }
-    Debug.Log("yeah me too");
     GoNow.Invoke();
   }
 }
