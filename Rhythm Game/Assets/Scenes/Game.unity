@@ -616,6 +616,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 297168849}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -721,6 +722,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &297168854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5722,6 +5726,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 299136439}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -5827,6 +5832,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &299136444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10880,7 +10888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &425858987
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11320,7 +11328,7 @@ LightingSettings:
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
   serializedVersion: 5
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
   m_RealtimeEnvironmentLighting: 1
@@ -11867,6 +11875,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 603004242}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -11972,6 +11981,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &603004247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16973,6 +16985,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 634792216}
+  timerShake: {fileID: 11400000, guid: 5887bea0fab99a44088c111f60258ad4, type: 2}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -17028,18 +17041,6 @@ MonoBehaviour:
   offBeatEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
-        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
-        m_MethodName: SetValue
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1916969406}
         m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
         m_MethodName: UpdateLabel
@@ -17088,6 +17089,45 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 413756946}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Idle
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 634792220}
+        m_TargetAssemblyTypeName: ClickableBehaviour, Assembly-CSharp
+        m_MethodName: CallEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 413756946}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Idle
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &634792221
@@ -22113,6 +22153,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 786118752}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -22141,6 +22182,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   offBeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  offBeatDelayEvent:
     m_PersistentCalls:
       m_Calls: []
 --- !u!65 &786118755
@@ -27140,6 +27184,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 793493284}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -27232,18 +27277,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 413756946}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Shake
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 413756943}
         m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
         m_MethodName: UpdateLabel
@@ -27257,6 +27290,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &793493289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33164,6 +33200,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 988082514}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -33269,6 +33306,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &988082519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39188,6 +39228,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 1216903294}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -39216,6 +39257,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   offBeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  offBeatDelayEvent:
     m_PersistentCalls:
       m_Calls: []
 --- !u!65 &1216903297
@@ -44215,6 +44259,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 1242846425}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -44320,6 +44365,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1242846430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49356,6 +49404,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 1269507945}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -49461,6 +49510,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1269507950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54462,6 +54514,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 1375599692}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -54567,6 +54620,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1375599697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60087,6 +60143,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 1572632598}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -60192,6 +60249,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1572632603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65346,6 +65406,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 1619732932}
+  timerShake: {fileID: 11400000, guid: 5887bea0fab99a44088c111f60258ad4, type: 2}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -65450,6 +65511,18 @@ MonoBehaviour:
           m_StringArgument: Shake
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1619732936}
+        m_TargetAssemblyTypeName: ClickableBehaviour, Assembly-CSharp
+        m_MethodName: CallEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 413756943}
         m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
         m_MethodName: UpdateLabel
@@ -65461,6 +65534,21 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 413756946}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Idle
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1619732937
@@ -70469,6 +70557,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 1746794175}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -70561,18 +70650,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 413756946}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Shake
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 413756943}
         m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
         m_MethodName: UpdateLabel
@@ -70586,6 +70663,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1746794180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75704,6 +75784,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 1841337842}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -75809,6 +75890,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1841337847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80890,6 +80974,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 1919827879}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -80918,6 +81003,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   offBeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  offBeatDelayEvent:
     m_PersistentCalls:
       m_Calls: []
 --- !u!65 &1919827882
@@ -85941,6 +86029,7 @@ MonoBehaviour:
       m_Calls: []
   onTime: 0
   note: {fileID: 1949687371}
+  timerShake: {fileID: 0}
   onTimeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -86046,6 +86135,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  offBeatDelayEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1949687376
 MonoBehaviour:
   m_ObjectHideFlags: 0
