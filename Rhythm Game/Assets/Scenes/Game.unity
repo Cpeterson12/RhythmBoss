@@ -530,8 +530,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.490044, y: 0.0816187, z: 0.8610937}
+  m_Center: {x: -0.37987563, y: -3.3394598e-10, z: -0.060086034}
 --- !u!114 &297168852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,7 +559,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 297168849}
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 988082514}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -5710,8 +5735,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.4397051, y: 0.0816187, z: 0.86011916}
+  m_Center: {x: -0.39705318, y: -3.9322434e-12, z: -0.05959879}
 --- !u!114 &299136442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5739,7 +5764,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 299136439}
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 988082514}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -10875,7 +10925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 22, y: 150}
+  m_AnchoredPosition: {x: 10, y: 150}
   m_SizeDelta: {x: 200, y: 49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &413756943
@@ -11549,8 +11599,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481765509}
   m_LocalRotation: {x: -0, y: -0, z: -0.9999966, w: -0.002613832}
-  m_LocalPosition: {x: -0.2, y: 21.6, z: 56.966316}
-  m_LocalScale: {x: 24.831, y: 24.831, z: 0.94866836}
+  m_LocalPosition: {x: -0.2, y: 22.6, z: 56.966316}
+  m_LocalScale: {x: 30.097654, y: 30.097654, z: 1.149881}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -11842,7 +11892,7 @@ RectTransform:
   m_GameObject: {fileID: 534720840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.51409, y: 0.51409, z: 0.51409}
+  m_LocalScale: {x: 0.6504267, y: 0.6504267, z: 0.6504267}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1822545091}
@@ -12220,8 +12270,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.5278852, y: 0.0816187, z: 0.85897964}
+  m_Center: {x: -0.37355176, y: 4.3175963e-11, z: -0.05902909}
 --- !u!114 &603004245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12249,7 +12299,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 603004242}
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 988082514}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -17400,8 +17475,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.4282997, y: 0.0816187, z: 0.93557864}
+  m_Center: {x: -0.35907608, y: -5.4052374e-10, z: -0.0973285}
 --- !u!114 &634792219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17429,13 +17504,26 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 634792216}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -22650,6 +22738,7 @@ GameObject:
   - component: {fileID: 786118753}
   - component: {fileID: 786118760}
   - component: {fileID: 786118759}
+  - component: {fileID: 786118761}
   m_Layer: 0
   m_Name: boss damage (2)
   m_TagString: Untagged
@@ -27593,6 +27682,65 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &786118761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786118752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4bc35a2e817f5b46b10044ee6c17bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnGround:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 72d2d9a5bce9fd548bb53bf41df6621c, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: SetValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 413756943}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 72d2d9a5bce9fd548bb53bf41df6621c,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OutOfLife:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 4044a891560e4164f8823be299b047f3, type: 2}
+        m_TargetAssemblyTypeName: GameActionBehaviour, Assembly-CSharp
+        m_MethodName: RaiseAction
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  lifeCount: {fileID: 11400000, guid: 72d2d9a5bce9fd548bb53bf41df6621c, type: 2}
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &793493284
 GameObject:
   m_ObjectHideFlags: 0
@@ -27645,8 +27793,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.4769044, y: 0.0816187, z: 0.9000471}
+  m_Center: {x: -0.3504243, y: 1.6196844e-10, z: -0.079562806}
 --- !u!114 &793493287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27674,13 +27822,26 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 793493284}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32960,7 +33121,7 @@ RectTransform:
   m_GameObject: {fileID: 910087905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.1237545, y: 2.1237545, z: 2.1237545}
+  m_LocalScale: {x: 3.586809, y: 3.586809, z: 3.586809}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 81594428}
@@ -33608,13 +33769,13 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 26.991467
+  field of view: 30
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -33776,6 +33937,43 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: OnBeatBehaviour, Assembly-CSharp
         m_MethodName: MoveNote
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 988082514}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -39889,6 +40087,7 @@ GameObject:
   - component: {fileID: 1216903295}
   - component: {fileID: 1216903302}
   - component: {fileID: 1216903301}
+  - component: {fileID: 1216903303}
   m_Layer: 0
   m_Name: boss damage (1)
   m_TagString: Untagged
@@ -44832,6 +45031,65 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &1216903303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216903294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4bc35a2e817f5b46b10044ee6c17bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnGround:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 72d2d9a5bce9fd548bb53bf41df6621c, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: SetValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 413756943}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 72d2d9a5bce9fd548bb53bf41df6621c,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OutOfLife:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 4044a891560e4164f8823be299b047f3, type: 2}
+        m_TargetAssemblyTypeName: GameActionBehaviour, Assembly-CSharp
+        m_MethodName: RaiseAction
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  lifeCount: {fileID: 11400000, guid: 72d2d9a5bce9fd548bb53bf41df6621c, type: 2}
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1242846425
 GameObject:
   m_ObjectHideFlags: 0
@@ -44884,8 +45142,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.465173, y: 0.0816187, z: 0.91947985}
+  m_Center: {x: -0.38828954, y: 7.70487e-11, z: -0.08927916}
 --- !u!114 &1242846428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44913,7 +45171,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1242846425}
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 988082514}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -50099,8 +50382,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.4904168, y: 0.0816187, z: 0.8599059}
+  m_Center: {x: -0.35849512, y: -0.000000018407645, z: -0.12073826}
 --- !u!114 &1269507948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50128,7 +50411,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1269507945}
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 988082514}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -55267,8 +55575,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.4723372, y: 0.0816187, z: 0.9074307}
+  m_Center: {x: -0.40513483, y: -1.3246548e-10, z: -0.08325445}
 --- !u!114 &1375599695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55296,7 +55604,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1375599692}
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 988082514}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -60785,7 +61118,7 @@ RectTransform:
   m_GameObject: {fileID: 1542315645}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.7902294, y: 1.7902294, z: 1.7902294}
+  m_LocalScale: {x: 2.676393, y: 2.676393, z: 2.676393}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1822545091}
@@ -60966,8 +61299,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.4989247, y: 0.0816187, z: 0.8877011}
+  m_Center: {x: -0.3734135, y: 5.358214e-11, z: -0.073389746}
 --- !u!114 &1572632601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60995,7 +61328,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1572632598}
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 988082514}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -66299,8 +66657,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.4548347, y: 0.0816187, z: 0.9301156}
+  m_Center: {x: -0.376209, y: -8.447332e-11, z: -0.09459715}
 --- !u!114 &1619732935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66328,13 +66686,26 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1619732932}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -71775,6 +72146,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OutOfLife:
     m_PersistentCalls:
       m_Calls:
@@ -71805,8 +72201,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.4626572, y: 0.0816187, z: 0.9058514}
+  m_Center: {x: -0.3603328, y: 4.541773e-10, z: -0.082464956}
 --- !u!199 &1746794185
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -76781,8 +77177,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.421289, y: 0.0816187, z: 0.8816563}
+  m_Center: {x: -0.37051955, y: -8.457396e-11, z: -0.0703673}
 --- !u!114 &1841337845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76810,7 +77206,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1841337842}
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 988082514}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -82077,6 +82498,7 @@ GameObject:
   - component: {fileID: 1919827880}
   - component: {fileID: 1919827887}
   - component: {fileID: 1919827886}
+  - component: {fileID: 1919827888}
   m_Layer: 0
   m_Name: boss damage
   m_TagString: Untagged
@@ -87020,6 +87442,65 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &1919827888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919827879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4bc35a2e817f5b46b10044ee6c17bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnGround:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 72d2d9a5bce9fd548bb53bf41df6621c, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: SetValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 413756943}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 72d2d9a5bce9fd548bb53bf41df6621c,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OutOfLife:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 4044a891560e4164f8823be299b047f3, type: 2}
+        m_TargetAssemblyTypeName: GameActionBehaviour, Assembly-CSharp
+        m_MethodName: RaiseAction
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  lifeCount: {fileID: 11400000, guid: 72d2d9a5bce9fd548bb53bf41df6621c, type: 2}
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1937541232
 GameObject:
   m_ObjectHideFlags: 0
@@ -87108,8 +87589,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2077277, y: 0.0816187, z: 0.8214351}
-  m_Center: {x: -0.38250092, y: 0, z: -0.040256705}
+  m_Size: {x: 3.5196002, y: 0.0816187, z: 0.82143503}
+  m_Center: {x: -0.41989008, y: 6.3662964e-12, z: -0.0402567}
 --- !u!114 &1949687374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87129,6 +87610,43 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: OnBeatBehaviour, Assembly-CSharp
         m_MethodName: MoveNote
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916969406}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f6bab6c41513a441a1a138965e4b67d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 988082514}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

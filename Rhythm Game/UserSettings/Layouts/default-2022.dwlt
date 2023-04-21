@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 500, y: 200}
   m_MaxSize: {x: 40480, y: 16192}
   vertical: 0
-  controlID: 29
+  controlID: 119
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -550,7 +550,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -650,11 +650,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.029095218, y: 0.009594423, z: -0.00027672414, w: 0.99953985}
     speed: 2
-    m_Value: {x: 0.02909533, y: 0.008095027, z: -0.00023307886, w: 0.99954385}
+    m_Value: {x: -0.029095218, y: -0.009594423, z: 0.00027672417, w: -0.9995399}
   m_Size:
-    m_Target: 0.0018969991
+    m_Target: 0.0029912908
     speed: 2
-    m_Value: 0.0018833493
+    m_Value: 0.0029912908
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1041,9 +1041,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 62560000
-      m_LastClickedID: 22114
-      m_ExpandedIDs: 0efbffff6a55000070570000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
